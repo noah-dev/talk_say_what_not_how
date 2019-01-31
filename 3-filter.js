@@ -1,10 +1,10 @@
 let heights = [3.75, 4.25, 5.5, 3];
 
-function onlyTallEnough(heights, minHeight){
+function onlyTallEnough(heights, minHeight) {
     let result = [];
-    for(let i = 0; i < heights.length; i++){
+    for (let i = 0; i < heights.length; i++) {
         let height = heights[i]
-        if(height >= minHeight)
+        if (height >= minHeight)
             result.push(height)
     }
     return result;

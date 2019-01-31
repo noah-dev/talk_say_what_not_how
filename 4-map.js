@@ -1,19 +1,19 @@
 let customers = [
     {
-        address:{
-            city:'KC'
+        address: {
+            city: 'KC'
         }
     },
     {
-        address:{
-            city:'NY'
+        address: {
+            city: 'NY'
         }
     }
 ]
 
-function getCities(customers){
+function getCities(customers) {
     let result = [];
-    for(let i = 0; i < customers.length; i++){
+    for (let i = 0; i < customers.length; i++) {
         let customer = customers[i];
         result.push(customer.address.city)
     }
